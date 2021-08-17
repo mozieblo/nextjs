@@ -1,4 +1,5 @@
-import { useRouter } from "next/dist/client/router"
+import { useRouter } from "next/dist/client/router";
+import Link from "next/link";
 
 export default function Test() {
     const router = useRouter();
@@ -8,6 +9,7 @@ export default function Test() {
     return (
       <div>
         <h1>Test</h1>
+        <Link href="/jakistekst/lala">LaLA=</Link>
       </div>
     )
   }
